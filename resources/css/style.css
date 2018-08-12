@@ -1,0 +1,43 @@
+/* Header Content */
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo span {
+    color: MediumAquamarine;
+}
+
+header nav {
+  padding-right: 40px;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header nav a {
+  color: black;
+}
+/* Main Content */
